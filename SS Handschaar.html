@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+     <meta charset="UTF-8">
+      <title>Muslime des Balkans in der SS - SS Handschar</title> 
+      <link rel="shortcut icon" type="image/x-icon" href="./bilder/13th_SS_Division_Logo.svg.png" />
+      <style>
+    body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow-y: scroll;
+            cursor: url(./HOI4\ \(Hearts\ of\ Iron\ 4\)\ Normal\ Cursor.cur), auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            animation: pageFade 1.6s ease forwards;
+            opacity: 0;
+            position: relative;
+            background-image: url(./bilder/Bundesarchiv_Bild_146-1977-137-20\,_Bosnische_SS-Freiwillige_beim_Gebet.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            padding: 10px 20px;
+            flex-direction: column;
+            gap: 20px;
+            cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Normal\ Cursor.cur),pointer;
+          }
+
+        body::before {
+            content: "";
+            position: fixed;  
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.4;       
+            z-index: -1;        
+        }
+
+        @keyframes pageFade {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .overlay {
+            background-color: rgba(20, 20, 20, 0.85);
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+ .ueberschrift {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e4e6d7;
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+       2px 2px 0 #000, 
+       4px 4px 8px rgba(0,0,0,0.6);
+    margin: 20px 0;
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+     .detail-box {
+        margin: 0 auto;
+        background: rgba(30,30,30,0.85);
+        border-radius: 15px;
+        padding: 15px;
+        width: 65%;
+        max-width: 900px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+        border-left: 6px solid #df8703d0;
+        border-style: double;
+    }
+
+    .detail-box:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 40px rgba(223, 54, 3, 0.7);
+        filter: brightness(1.05);
+    }
+
+    h2 {
+        margin-top: 0;
+        color: #df2f03;
+    }
+
+    p, li {
+        line-height: 1.6;
+        color: #fff;
+    }
+
+    ul {
+       color: white;
+        margin-left: 20px;
+    }
+
+    .detail-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex: 1;
+        min-width: 200px;
+        justify-content: center;
+    }
+
+    .detail-images img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Normal\ Cursor.cur) pointer;
+    }
+
+    .detail-images img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.7);
+       
+      }
+
+</style>
+    </style>
+    </head>
+    <style>
+      p.solid {border-style: solid;} 
+     </style>
+<style>
+    .gif-containera {
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.gif-containera img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(191, 224, 3, 0.753);
+    transition: 
+        transform 0.5s ease,
+        box-shadow 0.6s ease,
+        opacity 0.3s ease;
+}
+
+.gif-animated {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+
+      .gif-containera:hover .gif-static {
+        opacity: 0;
+      }
+
+      .gif-containera:hover .gif-animated {
+        opacity: 1;
+      }
+
+      .gif-containera:hover img {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(253, 253, 253, 0.562);
+        cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur), auto;
+      }
+
+ .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+    margin-top: 0px;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    background-color: black; 
+    background-size: cover;
+     box-shadow: 0 0 15px rgba(241, 241, 241, 0.562);
+}
+.header-banner {
+    max-width: 900px;
+    float: left;
+}
+
+.header-gif {
+    width: 220px;
+}
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  cursor: url("./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur") , pointer;
+}
+
+a:visited {
+  color: rgb(255, 251, 0);
+  background-color: transparent;
+  text-decoration: none;
+  cursor: url("./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur") , pointer;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: url("./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur") , pointer;
+  
+}
+a:active {
+  color: rgb(255, 195, 66);
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur) , pointer;
+}
+ 
+</style>
+
+
+<body>
+  
+  <div class="header-wrapper">
+
+  <img src="./bilder/banner.jpg" class="header-banner">
+
+  <div class="gif-containera header-gif">
+   <a href="./Über uns.html"> <img src="./bilder/background gifs über uns.jpg"> </a>
+   </div>
+<div class="gif-containera header-gif">
+<a href="./quellen.html"><img src="./bilder/background gifs -quellen.jpg" alt=""></a>
+</div>
+<div class="gif-containera header-gif">
+<a href="./Navigation.html">  <img src="./bilder/background gifs zurück.jpg"></a>
+</div>
+</div>
+<h1 class="ueberschrift">
+  13. Waffen-Gebirgs-Division der SS „Handschar“ (kroatische Nr.1)
+</h1>
+
+<div class="content-wrapper">
+<details class="detail-box">
+ <summary> <h2>Gründung & Hintergrund</h2></summary> 
+  <p>Die 13. Waffen‑Gebirgs‑Division der SS „Handschar“ wurde offiziell am 10. Februar 1943 aufgestellt, überwiegend mit muslimischen Freiwilligen aus Bosnien‑Herzegowina und Teilen Kroatiens. Sie war die erste nicht‑germanische Division der Waffen‑SS und sollte vor allem im Anti‑Partisanen‑Krieg auf dem Balkan eingesetzt werden. Der Name „Handschar“ stammt von einer traditionellen osmanischen Krummschwert‑Waffe, die symbolisch für die muslimische Identität stehen sollte. (<a href="https://en.wikipedia.org/wiki/13th_Waffen_Mountain_Division_of_the_SS_Handschar_(1st_Croatian)#Formation" target="_blank">en.wikipedia.org</a>)</p>
+  <p>Die Aufstellung geschah auf Initiative von Heinrich Himmler, der in Zusammenarbeit mit dem Großmufti von Jerusalem, Amin al‑Husseini, muslimische Freiwillige anwarb. Die Rekrutierung erfolgte teils freiwillig, teils unter Druck, und auch katholische Kroaten dienten in der Division. (<a href="https://www.welt.de/geschichte/article255744158/Handschar-Division-Wie-Muslime-der-Waffen-SS-nach-Buchenwald-kamen.html" target="_blank">welt.de</a>)</p>
+<div class="detail-images">
+        <!-- Platz für Kachelbilder -->
+        <img src="./bilder/Bundesarchiv_Bild_146-1978-070-04A,_Amin_al_Husseini_bei_bosnischen_SS-Freiwilligen.jpg" alt="Foto 1">
+        <img src="./bilder/1-2-bosnian-muslim-waffen-ss-13th-mountain-handschar-v0-n06oqdwyb23a1.jpg" alt="Foto 2">
+        
+        <img src="./bilder/file7hvq2m4k93ori9378sk.jpg" alt="Foto 4">
+        <img src="./bilder/Bundesarchiv_Bild_101III-Alber-164-18A,_Großmufti_Amin_al_Husseini,_Heinrich_Himmler.jpg" alt="Foto 5">
+        <img src="./bilder/file7hvq2onvoco16l6lh8sk.jpg" alt="Foto 6">
+        <img src="./bilder/file7nx2ztv1dcg11l4i061j.jpg" alt="Foto 7">
+        <img src="./bilder/file7nx2z71s9g5neabm616.jpg" alt="Foto 9">
+        <img src="./bilder/file7nx2zhyb5fsryr88616.jpg" alt="Foto 10">
+        <img src="./bilder/Bundesarchiv_Bild_146-1980-036-05,_Amin_al_Husseini_bei_bosnischen_SS-Freiwilligen.jpg" alt="Foto 11">
+        <img src="./bilder/Bundesarchiv_Bild_146-1973-116-11_Waffen-SS_13._Gebirgs-Div.__Handschar_crop-1150x647.jpg" alt="Foto 12">
+</details>
+
+<details class="detail-box">
+  <summary><h2>Organisation & Struktur</h2></summary>
+  <p>Im Frühjahr und Sommer 1943 wurde die Division in Südfrankreich und Deutschland ausgebildet und im Oktober offiziell nummeriert. Sie bestand aus mehreren Regimentern und unterstützenden Bataillonen:</p>
+  <ul>
+    <li>Waffen‑Gebirgs‑Jäger‑Regimenter der SS 27 & 28</li>
+    <li>SS‑Gebirgs‑Artillerie‑Regiment 13</li>
+    <li>SS‑Panzerjäger‑, Flak‑, Pionier‑ und Nachrichten‑Einheiten</li>
+    <li>Versorgungs‑ und Sanitätskompanien</li>
+  </ul>
+  <p>Die Division hatte Ende 1943 etwa 21 000 Männer. Deutsche und volksdeutsche Offiziere führten die Einheit, während die meisten Mannschaften aus Bosniern und kroatischen Freiwilligen bestanden. (<a href="https://www.lexikon-der-wehrmacht.de/Gliederungen/GebirgsdivisionenSS/13SSGebD-R.htm" target="_blank">lexikon-der-wehrmacht.de</a>)</p>
+</details>
+
+<details class="detail-box">
+ <summary>  <h2>Ausbildung & frühe Zeit</h2></summary> 
+  <p>Die Ausbildung konzentrierte sich auf Gebirgskampf, Partisanenbekämpfung und physische Vorbereitung auf den Einsatz auf dem Balkan. Die Soldaten trugen teilweise den traditionellen Fez als Kopfbedeckung, der sowohl Feld‑ als auch Paradevarianten hatte. (<a href="https://www.waffen-ss.no/SS-Waffen-Gebirgs-Handschar.htm" target="_blank">waffen-ss.no</a>)</p>
+</details>
+
+<details class="detail-box">
+  <summary><h2>Einsätze auf dem Balkan</h2></summary>
+  <p>Ab Februar 1944 nahm die Division an zahlreichen Anti‑Partisanen‑Operationen teil, darunter:</p>
+  <ul>
+    <li>Operation „Wegweiser“</li>
+    <li>Operation „Osterei“</li>
+    <li>Operation „Maibaum“</li>
+    <li>Operation „Maiglöckchen“</li>
+    <li>Operation „Vollmond“</li>
+  </ul>
+  <p>Die Handschar‑Division kämpfte hauptsächlich gegen kommunistisch geführte Partisanenbewegungen in Nord‑ und Ostbosnien und im Gebiet des ehemaligen Unabhängigen Staates Kroatien. (<a href="https://en.wikipedia.org/wiki/13th_Waffen_Mountain_Division_of_the_SS_Handschar_(1st_Croatian)#Operations" target="_blank">en.wikipedia.org</a>)</p>
+</details>
+
+<details class="detail-box">
+ <summary> <h2>Kriegsverbrechen & Reputation</h2></summary>
+  <p>Während dieser Einsätze fiel die Division durch oft extreme Brutalität auf und war an Vergeltungsaktionen beteiligt, bei denen Zivilisten, vor allem serbische und jüdische Gemeinden, Opfer von Mord und Repressionen wurden. Die genaue Zahl der Opfer ist nicht abschließend belegt, wird aber auf mehrere tausend geschätzt. (<a href="https://de.wikipedia.org/wiki/13._Waffen-Gebirgs-Division_der_SS_%E2%80%9EHandschar%E2%80%9C_(kroatische_Nr._1)" target="_blank">de.wikipedia.org</a>)</p>
+</details>
+
+<details class="detail-box">
+  <summary> <h2>Probleme, Desertionen & Zerfall</h2></summary>
+  <p>Mit dem Vormarsch der Roten Armee ab Spätsommer 1944 nahm die Moral ab. Viele Soldaten desertierten und schlossen sich teilweise den jugoslawischen Partisanen an – allein im September 1944 mehr als 2000 Mann. Die Wehrmacht meldete im Oktober, dass die Division kaum noch einsatzfähig sei. (<a href="https://www.lexikon-der-wehrmacht.de/Gliederungen/GebirgsdivisionenSS/13SSGebD-R.htm" target="_blank">lexikon-der-wehrmacht.de</a>)</p>
+</details>
+
+<details class="detail-box">
+ <summary><h2>Auflösung & Kriegsende</h2></summary>
+  <p>Im Dezember 1944 wurde die Handschar‑Division offiziell aufgelöst. Resteinheiten wurden anderen Verbänden zugeteilt oder dienten als „Fremdarbeiter“. Beim Rückzug geriet das verbliebene Personal in Kärnten in britische Gefangenschaft. (<a href="https://de.wikipedia.org/wiki/13._Waffen-Gebirgs-Division_der_SS_%E2%80%9EHandschar%E2%80%9C_(kroatische_Nr._1)" target="_blank">de.wikipedia.org</a>)</p>
+</details>
+
+<details class="detail-box">
+<summary> <h2>Kommandanten</h2></summary> 
+  <ul>
+    <li>SS‑Oberführer Herbert von Obwurzer (März–August 1943)</li>
+    <li>SS‑Gruppenführer Karl‑Gustav Sauberzweig (August 1943–Juni 1944)</li>
+    <li>SS‑Brigadeführer Desiderius Hampel (Juni 1944–Mai 1945)</li>
+  </ul>
+  <p>Hampel leitete die restlichen Kräfte bis zur Kapitulation 1945. (<a href="https://it.wikipedia.org/wiki/13._Waffen-Gebirgs-Division_der_SS_%22Handschar%22" target="_blank">it.wikipedia.org</a>)</p>
+</details>
+
+<details class="detail-box">
+ <summary>  <h2>Bekannte Fakten & Besonderheiten</h2></summary> 
+  <ul>
+    <li>Erste multi‑ethnische Waffen‑SS Division außerhalb deutscher Bevölkerung. (<a href="https://en.wikipedia.org/wiki/13th_Waffen_Mountain_Division_of_the_SS_Handschar_(1st_Croatian)" target="_blank">en.wikipedia.org</a>)</li>
+    <li>Truppengröße lag bei maximal ca. 17 000–21 000 Mann. (<a href="https://en.wikipedia.org/wiki/13th_Waffen_Mountain_Division_of_the_SS_Handschar_(1st_Croatian)" target="_blank">en.wikipedia.org</a>)</li>
+    <li>Verwendung des Fez als Kopfbedeckung. (<a href="https://www.waffen-ss.no/SS-Waffen-Gebirgs-Handschar.htm" target="_blank">waffen-ss.no</a>)</li>
+    <li>Teilweise hohe Desertionsraten im Endkampf. (<a href="https://www.lexikon-der-wehrmacht.de/Gliederungen/GebirgsdivisionenSS/13SSGebD-R.htm" target="_blank">lexikon-der-wehrmacht.de</a>)</li>
+  </ul>
+</details>

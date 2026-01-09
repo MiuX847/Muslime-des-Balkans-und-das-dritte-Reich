@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Muslime des Balkans in der SS - SS Handschar</title> 
+<link rel="shortcut icon" type="image/x-icon" href="./bilder/13th_SS_Division_Logo.svg.png" />
+<style>
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+    cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Normal\ Cursor.cur), auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: pageFade 1.6s ease forwards;
+    opacity: 0;
+    position: relative;
+    background-image: url(./bilder/Legion_Krempler_SS-Skanderbeg.webp.png);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            padding: 10px 20px;
+            flex-direction: column;
+            gap: 20px;
+ 
+}
+
+body::before {
+    content: "";
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;       
+    z-index: -1;        
+  
+
+   background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            padding: 10px 20px;
+            flex-direction: column;
+    z-index: -1;
+  }
+
+@keyframes pageFade {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.ueberschrift {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e4e6d7;
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 0 #000, 4px 4px 8px rgba(0,0,0,0.6);
+    margin: 20px 0;
+}
+gif-container-wrapper {
+    display: flex;
+    gap: 50px;
+    margin: 40px auto;
+    padding: 30px 50px;
+
+    background-color: rgba(134, 134, 134, 0.164);
+    background-size: auto;
+    border-radius: 5px;
+   
+    border-color: darkgoldenrod;
+    border-style: dashed;
+    flex-wrap: nowrap;    
+    justify-content: center;
+
+    max-width: 1800px;   
+}
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  cursor: url("./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur") , pointer;
+}
+
+a:visited {
+  color: rgb(255, 251, 0);
+  background-color: transparent;
+  text-decoration: none;
+  cursor: url("./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur") , pointer;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: url("./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur") , pointer;
+  
+}
+a:active {
+  color: rgb(255, 195, 66);
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur) , pointer;
+}
+
+      .gif-containera {
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+   
+  }
+
+.gif-containera img {
+    width: 100%; 
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(191, 224, 3, 0.753);
+    transition: 
+        transform 0.5s ease,
+        box-shadow 0.6s ease,
+        opacity 0.3s ease;
+}
+
+.gif-animated {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;   
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0;
+    
+  }
+
+      .gif-containera:hover .gif-static {
+        opacity: 0;
+      }
+
+      .gif-containera:hover .gif-animated {
+        opacity: 1;
+      }
+
+      .gif-containera:hover img {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(253, 253, 253, 0.562);
+        cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur), auto;
+      }
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* <-- links ausrichten */
+    gap: 90px;
+    margin-top: 0px;
+    padding-left: 0px; /* Abstand vom linken Rand */
+    flex-wrap: wrap;
+    background-color: black; 
+    background-size: cover;
+     box-shadow: 0 0 15px rgba(241, 241, 241, 0.562);
+}
+    .header-banner {
+    max-width: 900px;
+    float: left;
+
+  }
+
+.header-gif {
+    width: 220px;
+  }
+.detail-box {
+    margin: 0 auto;
+    background: rgba(30,30,30,0.85);
+    border-radius: 15px;
+    padding: 15px;
+    width: 65%;
+    max-width: 900px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    border-left: 6px solid #df8703d0;
+    border-style: double;
+}
+
+.detail-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(223, 54, 3, 0.7);
+    filter: brightness(1.05);
+    cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Link\ Select\ Cursor.cur)
+}
+
+h2 { margin-top: 0; color: #df2f03; }
+p, li { line-height: 1.6; color: #fff; }
+ul { color: white; margin-left: 20px; }
+</style>
+</head>
+<body>
+
+<div class="header-wrapper">
+  <img src="./bilder/banner.jpg" class="header-banner">
+  <div class="gif-containera header-gif">
+    <a href="./Über uns.html"><img src="./bilder/background gifs über uns.jpg"></a>
+  </div>
+  <div class="gif-containera header-gif">
+    <a href="./quellen.html"><img src="./bilder/background gifs -quellen.jpg" alt=""></a>
+  </div>
+  <div class="gif-containera header-gif">
+    <a href="./Navigation.html"><img src="./bilder/background gifs zurück.jpg"></a>
+  </div>
+</div>
+
+<h1 class="ueberschrift">Muslime des Balkans in der SS - SS Handschar</h1>
+
+<div class="content-wrapper">
+
+  
+    <details class="detail-box">
+  <summary>
+    <h2>
+      <a href="https://en.wikipedia.org/wiki/Sand%C5%BEak_Muslim_militia" target="_blank">
+        Sandžak Muslim Militia
+      </a>
+    </h2>
+  </summary>
+
+  <p>
+    Die <strong>Sandžak Muslim Militia</strong> war eine lose organisierte bewaffnete Formation muslimischer Milizionäre,
+    die während des Zweiten Weltkriegs im Gebiet des Sandžak sowie in Teilen Ost-Herzegowinas operierte.
+    Ihre Entstehung ist eng mit dem Zusammenbruch des Königreichs Jugoslawien im April 1941
+    und dem daraus resultierenden Machtvakuum verbunden.
+  </p>
+
+  <p>
+    In der Anfangsphase stand die Miliz unter der formalen Kontrolle des
+    <em>Unabhängigen Staates Kroatien (NDH)</em>, agierte jedoch weitgehend autonom
+    auf lokaler Ebene. Ihr Hauptziel bestand in der bewaffneten Selbstverteidigung
+    muslimischer Gemeinden gegen Übergriffe rivalisierender bewaffneter Gruppen,
+    insbesondere serbischer Chetnik-Verbände, aber auch in der Durchsetzung eigener
+    politischer und territorialer Interessen.
+  </p>
+
+  <p>
+    Ab 1942 gerieten Teile der Miliz zunehmend unter italienischen Einfluss,
+    da die italienischen Besatzungstruppen versuchten, lokale Kräfte zur Stabilisierung
+    ihrer Kontrollzonen einzusetzen. Nach der italienischen Kapitulation im September 1943
+    übernahmen deutsche Stellen die Kontrolle über verbliebene Einheiten.
+    In diesem Zusammenhang wurden Teile der Miliz in deutsche Sicherheits-
+    und Polizei-Strukturen integriert.
+  </p>
+
+  <p>
+    Die Sandžak Muslim Militia war in einen komplexen Mehrfrontenkonflikt verwickelt.
+    Sie kämpfte nicht nur gegen kommunistische Partisanen,
+    sondern beteiligte sich auch an ethnisch motivierten Gewaltakten,
+    Repressalien und Vergeltungsmaßnahmen gegen die Zivilbevölkerung.
+    Diese Aktionen trugen zur weiteren Eskalation der Gewaltspirale in der Region bei.
+  </p>
+
+  <p>
+    Schätzungen zufolge umfasste die Miliz etwa <strong>2 000 reguläre Kämpfer</strong>,
+    ergänzt durch lokale Hilfseinheiten. Bekannte lokale Anführer waren unter anderem
+    <em>Hasan Zvizdić</em>, <em>Husein Rovčanin</em> und <em>Sulejman Pačariz</em>.
+    Letzterer spielte später eine zentrale Rolle beim
+    <a href="https://en.wikipedia.org/wiki/SS_Polizei-Selbstschutz-Regiment_Sandschak" target="_blank">
+      SS Polizei-Selbstschutz-Regiment Sandschak
+    </a>.
+  </p>
+
+  <p>
+    Historisch wird die Sandžak Muslim Militia als Beispiel für die
+    fragmentierte, opportunistische und oft lokal motivierte Kollaboration
+    und Selbstorganisation bewaffneter Gruppen im besetzten Jugoslawien betrachtet.
+    Ihre Geschichte verdeutlicht die komplexen Loyalitäten, Ängste und Machtkämpfe,
+    die den Balkan während des Zweiten Weltkriegs prägten.
+  </p>
+</details>
+
+  <!-- Këshilla -->
+  <details class="detail-box">
+<summary><h2><a href="https://en.wikipedia.org/wiki/K%C3%ABshilla" target="_blank">Këshilla</a></h2></summary>    
+    <p><strong>Këshilla</strong> war keine reguläre Militäreinheit im klassischen Sinne, sondern eine lokale Verwaltung und paramilitärische Organisation, die im Juni 1942 im griechischen Thesprotia‑Gebiet unter italienischer Besatzung eingerichtet wurde. Ihr Name bedeutet auf Albanisch „Rat“ oder „Beratung“ und war Teil der Cham‑albanischen Kollaboration mit den Achsenmächten während der Besetzung Griechenlands im Zweiten Weltkrieg.</p>
+    <p>Këshilla wurde von cham‑albanischen Führungspersönlichkeiten etabliert, mit dem Ziel, das Gebiet in einen größeren albanischen Staat zu integrieren und die Kontrolle während der Besatzung zu sichern. Unter deutscher Besatzung gewann die Organisation in ihrer Struktur eine gewisse militärische Komponente, inklusive paramilitärischer Gruppen.</p>
+    <p>Diese Gruppen beteiligten sich an Aktionen gegen griechische Gemeinschaften, einschließlich Gewalt und der Zerstörung von Dörfern, was später als Teil der Zusammenarbeit mit den Achsenmächten verurteilt wurde.</p>
+  </details>
+
+  <!-- Hadžiefendić Legion -->
+  <details class="detail-box">
+    <summary><h2><a href="https://en.wikipedia.org/wiki/Had%C5%BEiefendi%C4%87_Legion" target="_blank">Hadžiefendić Legion</a></h2></summary>
+    <p>Die <strong>Hadžiefendić Legion</strong> oder „Muslim Legion“ war eine bosniakische Selbstverteidigungs‑Miliz und zugleich eine Einheit der Kroatischen Heimwehr, die Ende Dezember 1941 im Raum von Tuzla im Unabhängigen Staat Kroatien aufgebaut wurde.</p>
+    <p>Angeführt wurde sie von Major Muhamed Hadžiefendić, einem ehemaligen Offizier der königlichen jugoslawischen Armee. Die Legion bestand aus etwa 5 000–6 000 Mann und kämpfte zwischen 1941 und Oktober 1943 gegen jugoslawische Partisanen und Chetniks in Nordost‑Bosnien.</p>
+    <p>Ab April 1943 wurden viele Mitglieder der Legion in die <a href="https://en.wikipedia.org/wiki/13th_Waffen_Mountain_Division_of_the_SS_Handschar_(1st_Croatian)" target="_blank">13. Waffen‑Gebirgs‑Division der SS „Handschar“</a> rekrutiert, was die Legion schwächte. Im Oktober 1943, bei der Befreiung von Tuzla durch Partisanen, wurde Hadžiefendić getötet und die Legion löste sich auf.</p>
+  </details>
+
+</div>
+</body>
+</html>

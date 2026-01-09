@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+ <meta charset="UTF-8">
+  <title>Muslime des Balkans in der SS</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./bilder/Islam_creciente.png" />
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      cursor: url(./bilder/HOI4\ \(Hearts\ of\ Iron\ 4\)\ Normal\ Cursor.cur), auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      animation: pageFade 1.6s ease forwards;
+      opacity: 0;
+      overflow-y: scroll;
+    }
+
+    @keyframes pageFade {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .overlay {
+      background-color: rgba(20, 20, 20, 0.85);
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      box-shadow: 0 0 45px rgba(0, 0, 0, 0.753);
+    }
+
+    .glow-image {
+      display: block;
+      max-width: 600px;
+      margin: 20px;
+      transform: scale(0.9);
+      transition: transform 0.5s ease, opacity 0.5s ease, filter 0.5s ease;
+      opacity: 0.5;
+      filter: drop-shadow(0 0 4px rgba(255, 180, 80, 0.35));
+    }
+
+    .glow-image:hover {
+      transform: scale(1.04);
+      opacity: 1;
+      filter: drop-shadow(0 0 8px rgba(255, 180, 80, 0.55));
+    }
+
+    /* Container for images */
+    .image-container {
+      display: flex;
+    gap: 50px;
+    margin: 40px auto;
+    padding: 30px 50px;
+
+    background-color: rgba(134, 134, 134, 0.164);
+    background-size: auto;
+    border-radius: 5px;
+   
+    border-color: darkgoldenrod;
+    border-style: dashed;
+    flex-wrap: nowrap;     /* <-- WICHTIG */
+    justify-content: center;
+box-shadow: 0 0 15px rgba(224, 172, 3, 0.753);;
+    max-width: 1800px;    
+ }
+    .image-container::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+     width: 100%;
+    height: 100%;
+    background-image: url(./bilder/W-Insight-1-HT-Aug14-760x492.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;   
+    z-index: -1; /*Ebene nach hinten*/
+    filter:sepia(1);
+}    
+
+
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <img src="./bilder/banner.jpg" width="1500">
+
+   
+    <div class="image-container">
+      <img src="./bilder/über uns bild.png" class="glow-image">
+      <a href="./Navigation.html"><img src="./bilder/background gifs zurück.jpg" class="glow-image"></a>
+    </div>
+  </div>
+</body>
+</html>
